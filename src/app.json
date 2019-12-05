@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/user/main",
+    "pages/index/main",
+    "pages/index/search/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/book/main",
+    "pages/book/detail/main",
+    "pages/event/main",
+    "pages/event/detail/main",
+    "pages/event/cart/main",
+    "pages/event/form/main",
+    "pages/location/main",
+    "pages/location/map/main",
+    "pages/user/point/main",
+    "pages/user/collection/main",
+    "pages/user/cropper/main",
+    "pages/user/userinfo/main"
+  ],
+  "window": {
+    "navigationBarTitleText": "首都图书馆",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home_fill.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/event/main",
+        "iconPath": "static/tabs/event.png",
+        "selectedIconPath": "static/tabs/event_fill.png"
+      },
+      {
+        "text": "附近",
+        "pagePath": "pages/location/map/main",
+        "iconPath": "static/tabs/location.png",
+        "selectedIconPath": "static/tabs/location_fill.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/main",
+        "iconPath": "static/tabs/user.png",
+        "selectedIconPath": "static/tabs/user_fill.png"
+      }
+    ],
+    "items": [
+      {
+        "name": "首页",
+        "pagePath": "pages/index/main",
+        "icon": "static/tabs/home.png",
+        "activeIcon": "static/tabs/home_fill.png"
+      },
+      {
+        "name": "活动",
+        "pagePath": "pages/event/main",
+        "icon": "static/tabs/event.png",
+        "activeIcon": "static/tabs/event_fill.png"
+      },
+      {
+        "name": "附近",
+        "pagePath": "pages/location/map/main",
+        "icon": "static/tabs/location.png",
+        "activeIcon": "static/tabs/location_fill.png"
+      },
+      {
+        "name": "我的",
+        "pagePath": "pages/user/main",
+        "icon": "static/tabs/user.png",
+        "activeIcon": "static/tabs/user_fill.png"
+      }
+    ],
+    "position": "bottom",
+    "usingComponents": {
+      "van-icon": "static/vant/icon/index"
+    }
+  }
+}

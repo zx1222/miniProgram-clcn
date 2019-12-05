@@ -1,0 +1,79 @@
+.search-bar-wrap {
+    background-color: #efeff4;
+}
+
+.scan-code-wrap {
+    width: 40px;
+}
+
+.search-bar-left {
+    width: calc(100% - 38px);
+}
+
+.btn-scan {
+    width: 28px;
+    height: 28px;
+    padding-right: 20rpx;
+}
+
+.content-wrap {
+    padding: 0 20rpx;
+}
+
+.event-header,.book-header{
+    padding:20rpx 0;
+}
+
+.latest-book-wrap,
+.recommend-event-wrap {
+    overflow-x: scroll;
+}
+
+.latest-book-wrap::-webkit-scrollbar,
+.recommend-event-wrap::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.book-wrap,
+.event-wrap {
+    flex-shrink: 0;
+    position: relative;
+}
+
+.book-wrap:not(:last-child),
+.event-wrap:not(:last-child) {
+    margin-right: 20rpx;
+}
+
+.book-wrap .book-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 56px;
+    background: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    padding: 0 16rpx;
+    box-sizing: border-box;
+}
+
+.event-wrap .subject {
+    padding-bottom: 10rpx;
+    font-size: 28rpx;
+}
+
+.event-wrap .event-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    background: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    font-size: 20rpx;
+    padding: 0 16rpx;
+    box-sizing: border-box;
+}
+
+.btn-more{
+    display: inline-block;
+    padding: 4px;
+}

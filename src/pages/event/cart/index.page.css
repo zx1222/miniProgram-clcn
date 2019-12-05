@@ -1,0 +1,36 @@
+.event-cover img {
+    width: 44%;
+    margin: 30rpx 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.event-subject-wrap {
+    background: #ffffff;
+    padding: 20rpx 40rpx;
+}
+
+.event-subject-wrap .date,
+.event-subject-wrap .address {
+    padding-top: 10rpx;
+}
+
+.icon-clock {
+    padding-right: 5px;
+}
+
+.next-step {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 86rpx;
+    line-height: 86rpx;
+}
+
+.cart-wrap {
+    margin: 40rpx;
+    padding: 40rpx 30rpx;
+    border-radius: 5px;
+    border: 2px solid #007dff;
+}

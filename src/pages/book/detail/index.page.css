@@ -1,0 +1,28 @@
+
+.book-list-wrap .item {
+    padding: 24rpx 40rpx;
+    background: #ffffff;
+    margin-bottom: 20rpx;
+}
+
+.book-list-wrap .item:last-child {
+    margin-bottom: 0rpx;
+}
+
+.book-list-wrap .item .book-cover {
+    width: 25%;
+    margin-right: 30rpx;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.book-list-wrap .item .book-info {
+    width: calc(75% - 30rpx);
+}
+
+.book-list-wrap .item .title{
+    padding-bottom: 14rpx;
+}
+.book-info p{
+    margin-bottom: 5px;
+}
