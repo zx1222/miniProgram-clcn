@@ -1,10 +1,9 @@
 {
   "pages": [
-    "pages/user/main",
     "pages/index/main",
     "pages/index/search/main",
+    "pages/user/main",
     "pages/logs/main",
-    "pages/counter/main",
     "pages/book/main",
     "pages/book/detail/main",
     "pages/event/main",

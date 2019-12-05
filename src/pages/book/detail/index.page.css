@@ -1,28 +1,40 @@
+@import url("~mpvue-wxparse/src/wxParse.css");
 
-.book-list-wrap .item {
-    padding: 24rpx 40rpx;
-    background: #ffffff;
-    margin-bottom: 20rpx;
-}
-
-.book-list-wrap .item:last-child {
-    margin-bottom: 0rpx;
-}
-
-.book-list-wrap .item .book-cover {
-    width: 25%;
-    margin-right: 30rpx;
+.book-cover img {
+    width: 40%;
+    margin: 30rpx 0;
     border-radius: 4px;
     overflow: hidden;
 }
-
-.book-list-wrap .item .book-info {
-    width: calc(75% - 30rpx);
+.bookinfo-wrap{
+    font-size: 26rpx;
+    background: #ffffff;
+    padding: 20rpx 40rpx 40rpx 40rpx;
+}
+.locations-wrap{
+    font-size: 26rpx;
+    background: #ffffff;
+    padding: 0 40rpx;
 }
 
-.book-list-wrap .item .title{
-    padding-bottom: 14rpx;
+.row {
+    padding-bottom: 10rpx;
 }
-.book-info p{
-    margin-bottom: 5px;
+
+.row-label {
+    width: 24%;
+}
+
+.row-content {
+    width: 74%;
+    margin-left: 2%;
+}
+
+.title{
+    font-size: 36rpx;
+    padding-bottom: 18rpx;
+}
+
+.locations-wrap .row-content{
+    text-align: right;
 }
