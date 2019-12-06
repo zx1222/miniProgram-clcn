@@ -16,12 +16,34 @@
     padding-right: 20rpx;
 }
 
+.menu {
+    flex-flow: row wrap;
+    margin-bottom: 20rpx;
+    padding:30rpx 0 14rpx 0;
+    background: #ffffff;
+}
+.menu .item{
+    width: 25%;
+    font-size:28rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16rpx;
+}
+.menu .item img{
+    width: 100rpx;
+    height: 100rpx;
+    display: block;
+    padding-bottom:8rpx;
+}
+
 .content-wrap {
     padding: 0 20rpx;
 }
 
-.event-header,.book-header{
-    padding:20rpx 0;
+.event-header,
+.book-header {
+    padding: 20rpx 0;
 }
 
 .latest-book-wrap,
@@ -73,7 +95,7 @@
     box-sizing: border-box;
 }
 
-.btn-more{
+.btn-more {
     display: inline-block;
     padding: 4px;
 }

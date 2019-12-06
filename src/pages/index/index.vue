@@ -27,14 +27,57 @@
       </div>
       <img class="btn-scan" src="../../../static/images/scan.png" />
     </div>
+
+    <!-- btn menu -->
+    <div class="menu flex justify-content-between">
+      <div class="item">
+        <img src="../../../static/images/btn-menu-book.png" class="btn" />
+        馆藏查询
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-user.png" class="btn" />
+        绑定读者卡
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-code.png" class="btn" />
+        我的二维码
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-notice.png" class="btn" />
+        公告
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-history.png" class="btn" />
+        借阅记录
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-money.png" class="btn" />
+        财经查询
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-circle.png" class="btn" />
+        身边文化圈
+      </div>
+      <div class="item">
+        <img src="../../../static/images/btn-menu-event.png" class="btn" />
+        活动推荐
+      </div>
+    </div>
+
     <div class="content-wrap">
       <!-- 新书推荐 -->
       <div class="book-header w100 flex justify-content-between align-items-center">
         <span class="header-name">新书推荐</span>
-        <span class="header-name text-gray text-xs  btn-more" @click="navigateBookList">查看更多</span>
+        <span class="header-name text-gray text-xs btn-more" @click="navigateBookList">查看更多</span>
       </div>
       <div class="latest-book-wrap flex">
-        <div class="book-wrap" v-for="item in books" :key="item" :style="{width: bookWidth+ 'px'}" @click="navigateBook(item.id)">
+        <div
+          class="book-wrap"
+          v-for="item in books"
+          :key="item"
+          :style="{width: bookWidth+ 'px'}"
+          @click="navigateBook(item.id)"
+        >
           <img :src="item.image" mode="widthFix" class="w100" />
           <div class="book-info flex-c justify-content-center text-m">
             <p class="text-overflow1">{{item.title}}</p>
