@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/user/main",
     "pages/index/main",
     "pages/index/search/main",
-    "pages/user/main",
     "pages/logs/main",
     "pages/book/main",
     "pages/book/detail/main",
@@ -15,7 +15,10 @@
     "pages/user/point/main",
     "pages/user/collection/main",
     "pages/user/cropper/main",
-    "pages/user/userinfo/main"
+    "pages/user/userinfo/main",
+    "pages/user/card/main",
+    "pages/user/bindCard/main",
+    "pages/user/applyCard/main"
   ],
   "window": {
     "navigationBarTitleText": "首都图书馆",

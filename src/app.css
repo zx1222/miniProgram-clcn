@@ -32,9 +32,11 @@ img {
 .w100 {
     width: 100%;
 }
-.text-l{
+
+.text-l {
     font-size: 36rpx;
 }
+
 .text-m {
     font-size: 26rpx;
 }
@@ -73,6 +75,10 @@ img {
 
 .bg-green {
     background-color: #07c160;
+}
+
+.bg-blue {
+    background-color: #007dff;
 }
 
 .bg-gray {
