@@ -40,6 +40,11 @@ export default {
       wx.navigateTo({
         url:'/pages/user/collection/main'
       })
+    },
+    navigateCard(){
+      wx.navigateTo({
+        url:'/pages/user/card/main'
+      })
     }
   },
 

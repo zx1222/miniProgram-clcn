@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div class="card flex justify-content-between align-items-center text-m">
+    <div class="card flex justify-content-between align-items-center text-m" @click="navigateCard">
       <div class="flex align-items-center">
         <van-icon name="idcard" class="icon" size="20px" />我的读者卡
       </div>
@@ -41,4 +41,34 @@
 
 <script src='./index.page.js'></script>
 
-<style scoped src='./index.page.css'></style>
+<style scoped>
+.user-top-bar {
+  padding: 50rpx 40rpx;
+  background: #ffffff;
+  margin-bottom: 20rpx;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.userinfo {
+  padding-left: 40rpx;
+}
+
+.pac {
+  padding: 50rpx 190rpx 0 190rpx;
+}
+.card,
+.apply {
+  background: #ffffff;
+  padding: 20rpx 40rpx;
+  margin-bottom: 20rpx;
+}
+.card .icon,
+.apply .icon {
+  padding-right: 18rpx;
+}
+</style>

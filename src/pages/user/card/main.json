@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText":"我的读者卡",
+    "usingComponents": {
+      "van-icon": "/static/vant/icon/index"
+    }
+}

@@ -111,6 +111,7 @@ export default {
     openScanCode() {
       wx.scanCode({
         success(res) {
+          console.log('scancode success!')
           console.log(res)
         }
       })
